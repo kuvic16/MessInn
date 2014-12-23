@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-facesconfig_2_2.xsd">
+              
+	<application>
+		<message-bundle>resources.application</message-bundle>
+		<locale-config>
+			<default-locale>en</default-locale>
+		</locale-config>
+	</application>
+
+	<!-- <managed-bean> <managed-bean-name>sessionBean</managed-bean-name> <managed-bean-class>com.brac.ehealth.web.controller.SessionBean</managed-bean-class> 
+		<managed-bean-scope>session</managed-bean-scope> <managed-property> <property-name>skin</property-name> 
+		<property-class>java.lang.String</property-class> <value>default</value> 
+		</managed-property> </managed-bean> -->
+
+	<!-- <navigation-rule> <from-view-id>/login.xhtml</from-view-id> <navigation-case> 
+		<from-outcome>TO_HOME</from-outcome> <to-view-id>/pages/site/home.xhtml</to-view-id> 
+		<redirect /> </navigation-case> </navigation-rule> <navigation-rule> <from-view-id>*</from-view-id> 
+		<navigation-case> <from-outcome>BACK_TO_LOGIN</from-outcome> <to-view-id>/login.xhtml</to-view-id> 
+		<redirect/> </navigation-case> <navigation-case> <from-outcome>TO_HOME</from-outcome> 
+		<to-view-id>/pages/site/home.xhtml</to-view-id> <redirect/> </navigation-case> 
+		</navigation-rule> -->
+	<!-- <locale-config> <default-locale>en</default-locale> <supported-locale>es</supported-locale> 
+		<supported-locale>fr</supported-locale> </locale-config> -->
+	<!-- <message-bundle>ApplicationResources</message-bundle> -->
+</faces-config>
