@@ -12,3 +12,4 @@ Approach of this application
 5. J2EE foundation
 6. Resource bundle
 7. Message bundle
+8. Localization
