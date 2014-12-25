@@ -1,4 +1,4 @@
-package com.vagabondlab.MessInn;
+package com.vagabondlab.messinn;
 
 /**
  * Hello world!
