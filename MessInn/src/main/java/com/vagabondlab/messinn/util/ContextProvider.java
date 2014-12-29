@@ -19,6 +19,11 @@ public class ContextProvider implements ServletContextListener{
 
 	@Override
 	public void contextDestroyed(ServletContextEvent arg0) {
+		System.out.println(".................MessInn application is Removed....................");		
+	}
+
+	@Override
+	public void contextInitialized(ServletContextEvent arg0) {		
 		servletContext = arg0.getServletContext();
         ContextInfo.setContextRealPath(servletContext.getRealPath("/"));
         ContextInfo.setContextPath(servletContext.getContextPath());
@@ -30,12 +35,6 @@ public class ContextProvider implements ServletContextListener{
         String propertiesFileAbsolutePath = servletContext.getRealPath(File.separator)
                + File.separator + "WEB-INF" + File.separator + "system.properties";
         PropertyFactory.init(propertiesFileAbsolutePath);
-	}
-
-	@Override
-	public void contextInitialized(ServletContextEvent arg0) {
-		
-		
 	}
 
 }
